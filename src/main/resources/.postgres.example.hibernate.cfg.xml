@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/gesimmo</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">lepro$bss</property>
+        <property name="connection.pool_size">1</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="show_sql">true</property>
+        <property name="dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+        <!-- DB schema will be updated if needed -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- Mapping Models java to DB entities -->
+        <mapping class="main.java.com.m1gl.models.Bailleur" />
+        <mapping class="main.java.com.m1gl.models.Bien" />
+        <mapping class="main.java.com.m1gl.models.User" />
+        <mapping class="main.java.com.m1gl.models.Client" />
+        <mapping class="main.java.com.m1gl.models.Personne" />
+        <mapping class="main.java.com.m1gl.models.Typebien" />
+        <mapping class="main.java.com.m1gl.models.Photo" />
+        <mapping class="main.java.com.m1gl.models.TypeReglement" />
+        <mapping class="main.java.com.m1gl.models.Location" />
+        <mapping class="main.java.com.m1gl.models.Paiement" />
+        <mapping class="main.java.com.m1gl.models.Annee" />
+        <mapping class="main.java.com.m1gl.models.Mois" />
+        <mapping class="main.java.com.m1gl.models.MoisAnnee" />
+        <mapping class="main.java.com.m1gl.models.MoisPaiement" />
+
+
+    </session-factory>
+</hibernate-configuration>
