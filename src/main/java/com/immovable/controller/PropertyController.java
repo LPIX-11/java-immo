@@ -24,7 +24,7 @@ import java.util.List;
  */
 
 @Path("/properties")
-public class PropertyControlleur extends BaseController {
+public class PropertyController extends BaseController {
 
     private final String ALL_FIELD_REQUIRE = "Fill in all fields!";
     private final String ERROR_SERVER = "Server error";
