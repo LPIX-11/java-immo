@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://raja.db.elephantsql.com:5432/jjiairnv</property>
-        <property name="connection.username">jjiairnv</property>
-        <property name="connection.password">wyp94zvMfQWf1Vq2r-xUH2I5E88HFG_p</property>
+        <property name="connection.url">jdbc:postgres://tnhbjzqv:Tm6sJxXCDUJ3CiN99O2fcbAGUJUKJjDY@raja.db.elephantsql.com:5432/tnhbjzqv</property>
+        <property name="connection.username">tnhbjzqv</property>
+        <property name="connection.password">Tm6sJxXCDUJ3CiN99O2fcbAGUJUKJjDY</property>
         <property name="connection.autocommit">true</property>
         <property name="current_session_context_class">thread</property>
         <property name="show_sql">true</property>
@@ -16,19 +16,19 @@
         <property name="hbm2ddl.auto">update</property>
 
         <!-- Mapping Models java to DB entities -->
-        <mapping class="main.java.com.m1gl.models.Bailleur"/>
-        <mapping class="main.java.com.m1gl.models.Bien"/>
-        <mapping class="main.java.com.m1gl.models.User"/>
-        <mapping class="main.java.com.m1gl.models.Client"/>
-        <mapping class="main.java.com.m1gl.models.Typebien"/>
-        <mapping class="main.java.com.m1gl.models.Photo"/>
-        <mapping class="main.java.com.m1gl.models.TypeReglement"/>
-        <mapping class="main.java.com.m1gl.models.Location"/>
-        <mapping class="main.java.com.m1gl.models.Paiement"/>
-        <mapping class="main.java.com.m1gl.models.Annee"/>
-        <mapping class="main.java.com.m1gl.models.Mois"/>
-        <mapping class="main.java.com.m1gl.models.MoisAnnee"/>
-        <mapping class="main.java.com.m1gl.models.MoisPaiement"/>
+        <mapping class="main.java.com.immovable.models.Lessor"/>
+        <mapping class="main.java.com.immovable.models.Property"/>
+        <mapping class="main.java.com.immovable.models.User"/>
+        <mapping class="main.java.com.immovable.models.Customer"/>
+        <mapping class="main.java.com.immovable.models.PropertyType"/>
+        <mapping class="main.java.com.immovable.models.Picture"/>
+        <mapping class="main.java.com.immovable.models.TypeReglement"/>
+        <mapping class="main.java.com.immovable.models.Rent"/>
+        <mapping class="main.java.com.immovable.models.Paiement"/>
+        <mapping class="main.java.com.immovable.models.Year"/>
+        <mapping class="main.java.com.immovable.models.Month"/>
+        <mapping class="main.java.com.immovable.models.YearMonth"/>
+        <mapping class="main.java.com.immovable.models.PaymentMonth"/>
         <!-- end Mapping Models java to DB entities -->
     </session-factory>
 </hibernate-configuration>

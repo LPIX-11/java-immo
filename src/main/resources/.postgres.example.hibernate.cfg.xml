@@ -16,20 +16,20 @@
         <property name="hbm2ddl.auto">update</property>
 
         <!-- Mapping Models java to DB entities -->
-        <mapping class="main.java.com.m1gl.models.Bailleur" />
-        <mapping class="main.java.com.m1gl.models.Bien" />
-        <mapping class="main.java.com.m1gl.models.User" />
-        <mapping class="main.java.com.m1gl.models.Client" />
-        <mapping class="main.java.com.m1gl.models.Personne" />
-        <mapping class="main.java.com.m1gl.models.Typebien" />
-        <mapping class="main.java.com.m1gl.models.Photo" />
-        <mapping class="main.java.com.m1gl.models.TypeReglement" />
-        <mapping class="main.java.com.m1gl.models.Location" />
-        <mapping class="main.java.com.m1gl.models.Paiement" />
-        <mapping class="main.java.com.m1gl.models.Annee" />
-        <mapping class="main.java.com.m1gl.models.Mois" />
-        <mapping class="main.java.com.m1gl.models.MoisAnnee" />
-        <mapping class="main.java.com.m1gl.models.MoisPaiement" />
+        <mapping class="main.java.com.immovable.models.Lessor" />
+        <mapping class="main.java.com.immovable.models.Property" />
+        <mapping class="main.java.com.immovable.models.User" />
+        <mapping class="main.java.com.immovable.models.Customer" />
+        <mapping class="main.java.com.immovable.models.Person" />
+        <mapping class="main.java.com.immovable.models.PropertyType" />
+        <mapping class="main.java.com.immovable.models.Picture" />
+        <mapping class="main.java.com.immovable.models.TypeReglement" />
+        <mapping class="main.java.com.immovable.models.Rent" />
+        <mapping class="main.java.com.immovable.models.Paiement" />
+        <mapping class="main.java.com.immovable.models.Year" />
+        <mapping class="main.java.com.immovable.models.Month" />
+        <mapping class="main.java.com.immovable.models.YearMonth" />
+        <mapping class="main.java.com.immovable.models.PaymentMonth" />
 
 
     </session-factory>

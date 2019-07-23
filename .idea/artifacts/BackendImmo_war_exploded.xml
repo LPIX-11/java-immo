@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="BackendImmo" />
+          <element id="module-output" name="Immovable-Backend" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
@@ -72,7 +72,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/BackendImmo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="BackendImmo/web/Web" />
+      <element id="javaee-facet-resources" facet="Immovable-Backend/web/Web" />
     </root>
   </artifact>
 </component>

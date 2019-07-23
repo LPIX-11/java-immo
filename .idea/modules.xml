@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BackendImmo.iml" filepath="$PROJECT_DIR$/BackendImmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Immovable-Backend.iml" filepath="$PROJECT_DIR$/Immovable-Backend.iml" />
     </modules>
   </component>
 </project>
