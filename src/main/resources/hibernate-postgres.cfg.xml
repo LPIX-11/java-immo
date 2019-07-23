@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://raja.db.elephantsql.com:5432/jjiairnv</property>
-        <property name="connection.username">jjiairnv</property>
-        <property name="connection.password">wyp94zvMfQWf1Vq2r-xUH2I5E88HFG_p</property>
+        <property name="connection.url">jdbc:postgresql://raja.db.elephantsql.com:5432/tnhbjzqv</property>
+        <property name="connection.username">tnhbjzqv</property>
+        <property name="connection.password">Tm6sJxXCDUJ3CiN99O2fcbAGUJUKJjDY</property>
         <property name="connection.autocommit">true</property>
         <property name="current_session_context_class">thread</property>
         <property name="show_sql">true</property>
