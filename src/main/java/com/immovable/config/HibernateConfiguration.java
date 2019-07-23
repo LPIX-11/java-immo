@@ -30,8 +30,6 @@ public class HibernateConfiguration {
         return ourSessionFactory.openSession();
     }
 
-
-
     public void initDatabase() throws Exception {
         final Session session = getSession();
         try {
@@ -46,7 +44,8 @@ public class HibernateConfiguration {
                 }
             }
             try {
-                User user1 = session.createQuery("select u from User u where u.username like 'admin'", User.class).getSingleResult();
+                User user1 = session.createQuery("select u from User u where u.username like 'admin'", User.class)
+                        .getSingleResult();
                 if (user1 == null) {
                     User user = new User();
                     user.setMatricule("admin");
@@ -54,7 +53,7 @@ public class HibernateConfiguration {
                     user.setPrenom("Admin");
                     user.setNom("Admin");
                     user.setUsername("admin");
-                    user.setPassword("admin@123");
+                    user.setPassword("password@123++");
                     session.beginTransaction();
                     session.save(user);
                     session.getTransaction().commit();
